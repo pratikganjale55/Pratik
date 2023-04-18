@@ -11,13 +11,14 @@
     <!-- Favicons -->
     <link href="assets/img/pword.jpg" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
@@ -85,7 +86,7 @@
               >
             </li>
             <li>
-              <a href="#portfolio" class="nav-link scrollto"
+              <a href="#projects" class="nav-link scrollto"
                 ><i class="bx bx-book-content"></i> <span>Projects</span></a
               >
             </li>
@@ -121,8 +122,10 @@
             data-typed-items="UI Designer,FrontEnd Developer, MERN Stack Developer, Backend Developer "
           ></span>
         </p>
-        <button type="button" class="btn btn-info resumeBtn" onclick="downloadResume()">RESUME</button>
-        <!-- <a href="https://drive.google.com/file/d/1_lwFIRUDU3co8bKa5jdeBqrc4rJGzDGa/view?usp=sharing" target="_blank" download="resume.pdf" class="resumeBtn" onclick="downloadResume()">Resume</a> -->
+       
+        <a href="https://drive.google.com/file/d/1_lwFIRUDU3co8bKa5jdeBqrc4rJGzDGa/view?usp=sharing" target="_blank" >
+          <button type="button" class="btn btn-info resumeBtn" onclick="downloadResume()">RESUME</button>
+        </a>
       </div>
     </section>
     <!-- End Hero -->
@@ -279,7 +282,7 @@
       <!-- ======= Portfolio Section ======= -->
       
       </section> -->
-      <section id="chefs" class="chefs">
+      <section id="projects" class="projects">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
@@ -292,7 +295,7 @@
           <div class="row gy-4">
   
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-              <div class="chef-member">
+              <div class="project-member">
                 <div class="member-img">
                   <img src="assets/img/portfolio/position.png" class="img-fluid" alt="">
                  
@@ -300,8 +303,8 @@
                 <div class="member-info">
                   <h4>Masai Placement Portal</h4>
                   <span>MERN</span>
-                  <p><b>Mission</b>: Placement team will create companies,positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.Admin create all companies information,positions and eligibility so student wiil get all transparency while applying.
-                    user friendly and UI have all points that user can reach start to end smoothly. 
+                  <p><b>Mission</b>: Placement team creates companies,positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.Admin create all companies information,positions and eligibility so student wiil get all transparency while applying.
+                    user friendly UI and have all points that user can reach start to end smoothly. 
                   </p>
                   
                   <p>
@@ -317,10 +320,10 @@
                  
                 </div>
               </div>
-            </div><!-- End Chefs Member -->
+            </div><!-- End projects Member -->
   
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-              <div class="chef-member">
+              <div class="project-member">
                 <div class="member-img">
                   <img src="assets/img/portfolio/fitmealHome.png" class="img-fluid" alt="">
                  
@@ -346,7 +349,7 @@
   
             
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-              <div class="chef-member">
+              <div class="project-member">
                 <div class="member-img">
                   <img src="assets/img/portfolio/onbikeHome.png" class="img-fluid" alt="">
                   
@@ -355,8 +358,8 @@
                   <h4>ONNBike-Clone</h4>
                   <span>FrontEnd</span>
                   <p><b>Mission</b>:ONNBike.com is online bike booking website here customer can pay using debit/creadit card and take a ride based as hourly, daily and monthly
-                  This project is a clone of Onnbike.com Onnbike is the most affordacle bike renral company in India. They specialize in motorbike rental to long term hiring or leasing from bike tours to bike maintainess and service.
-                  UI have all points that user can reach start to end smoothly & user friendly. 
+                  This project is a clone of Onnbike.com Onnbike is the most affordacle bike rental company in India. They specialize in motorbike rental to long term hiring or leasing from bike tours to bike maintainess and service.
+                  UI have all points that user can reach start to end smoothly. 
                 </p>
                   <p>
                     <strong>Tech Stack</strong>: Javascript |
@@ -371,7 +374,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-              <div class="chef-member">
+              <div class="project-member">
                 <div class="member-img">
                   <img src="assets/img/portfolio/gymHome.png" class="img-fluid" alt="">
                   
@@ -394,7 +397,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-              <div class="chef-member">
+              <div class="project-member">
                 <div class="member-img">
                   <img src="assets/img/portfolio/kfcHome.png" class="img-fluid" alt="">
                  
@@ -402,8 +405,10 @@
                 <div class="member-info">
                   <h4>KFC-Clone</h4>
                   <span>FrontEnd</span>
-                  <p><b>Mission</b>:KFC is online food base website, which offers digital and offline experiences in food products store
-                  KFC Corporation is the largest fast-food chicken operator, developer, and franchiser in the world. KFC, a wholly owned subsidiary of PepsiCo, Inc. until late 1997, operates over 5,000 units in the United States, approximately 60 percent of which are franchises. Internationally, KFC has more than 3,700 units, of which two-thirds are also franchised.</p>
+                  <p><b>Mission</b>:In this project,aimed to replicate the look and feel of the KFC website, including its various features and functionalities.
+                    On the website, you'll find all of KFC's popular menu items, as well as the ability to place orders and checkout with ease. I also included a store locator feature so that users can find the nearest KFC location to them.
+                    Overall, I'm really proud of the way this project turned out, I hope you enjoy using it as much as I enjoyed creating it!
+                  </p>
                   <p>
                     <strong>Tech Stack</strong>: Javascript | HTML | CSS
                   </p>
@@ -469,8 +474,9 @@
                
                 </div>
               </div>
-             
+              
             </div>
+            <img src="https://ghchart.rshah.org/pratikganjale55" style="width : 100%; height: auto;" />
             <div class="swiper-pagination"></div>
           </div>
         </div>
@@ -609,6 +615,7 @@
 </html>
 
 <script>
+
   function downloadResume() {
     var fileId = '1_lwFIRUDU3co8bKa5jdeBqrc4rJGzDGa';
   
