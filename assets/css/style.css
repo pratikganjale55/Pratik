@@ -643,7 +643,7 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  /* background: url(../img/portfolio/team-shape.svg) no-repeat center bottom; */
+ 
   background-size: contain;
   z-index: 1;
 }
@@ -661,7 +661,7 @@ section {
 
 .projects .project-member .social a {
   transition: color 0.3s;
-  color: rgba(55, 55, 63, 0.4);
+  color: rgba(75, 75, 78, 0.4);
   margin: 15px 12px;
   display: block;
   line-height: 0;
@@ -691,7 +691,7 @@ section {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: rgba(33, 37, 41, 0.4);
+  color: var(--color-secondary);
 }
 
 .projects .project-member .member-info p {
@@ -699,7 +699,8 @@ section {
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: rgba(33, 37, 41, 0.7);
+  /* color: rgba(42, 43, 44, 0.7); */
+  color: var(--color-secondary);
 }
 
 .projects .project-member:hover {
