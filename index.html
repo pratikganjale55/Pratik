@@ -554,7 +554,15 @@
                   <h4>Linkdin:</h4>
                   <p>Pratik Ganjale</p>
                 </div>
-           
+                <div class="phone">
+                  <a
+                  href="https://github.com/pratikganjale55"
+                  class="linkedin" target="_blank"
+                  ><i class="bi bi-github"></i></a>
+                  
+                  <h4>Github:</h4>
+                  <p>pratikganjale55</p>
+                </div>
               </div>
             </div>
 
@@ -647,16 +655,13 @@
 <script>
 
   function downloadResume() {
-    // var fileId = '1_lwFIRUDU3co8bKa5jdeBqrc4rJGzDGa';
-    
-    var fileUrl = 'https://drive.google.com/file/d/1JS6Y-iHxFUMww2g_01GaT1A2ZEF6wrpB/view';
-
-   
-
-    var downloadLink = document.createElement('a');
-    downloadLink.href = fileUrl;
-    downloadLink.download = 'resume.pdf';
+    var fileUrl = 'https://drive.google.com/uc?export=download&id=1JS6Y-iHxFUMww2g_01GaT1A2ZEF6wrpB';
+  var downloadLink = document.createElement('a');
+  downloadLink.href = fileUrl;
+  downloadLink.download = 'resume.pdf';
+  document.body.appendChild(downloadLink);
   downloadLink.click();
+  document.body.removeChild(downloadLink);
    
   
 }
